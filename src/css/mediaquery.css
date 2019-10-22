@@ -1,0 +1,28 @@
+@media screen and (min-device-width: 769px) {
+	.menubar {
+		display: none;
+	}
+	.nav {
+		display: flex;
+		flex-direction: row;	
+		justify-content: flex-end;
+		margin-top: -40px;
+	}
+	.nav-ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-end;
+	}
+	.nav-ul li {
+		padding-right: 25px;
+		font-size: 20px;
+		font-weight: bolder;
+	}
+	.nav-ul a{
+		text-decoration: none;
+
+	}
+	.bannermain  {
+		height: 500px;
+	}
+} 

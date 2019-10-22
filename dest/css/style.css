@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+*
+{
+		padding:0;
+		margin:0;
+		
+}
+ul li {
+	list-style-type: none;
+}
+.header {
+	background-color: #066593;
+	text-align: center;
+	padding: 20px 20px;
+}
+
+.s-m a {
+	padding: 10px; 
+  	transition: 0.4s;
+ 	font-size: 25px;
+ 	transition: 0.4s;
+ 	color: #fff;
+ 	border-radius: 50%;	
+}
+.s-m a:hover{
+  background: #00007c;
+}
+.s-m a i{
+  transition: 0.4s all;
+}
+.s-m a:hover > i{
+  transform: scale(1.6) rotate(25deg);
+}
+.logo
+{
+	background-image: url("../img/logo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	color: transparent;
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	
+}
+.navcvr {
+	background-color: #fff;
+}
+.menubar {
+	float: right;
+	font-size: 30px;
+	margin-top: -50px;
+	margin-right: 30px;
+}
+.nav {
+	display: none;
+
+}
+.nav ul {
+	line-height: 2.0rem;
+	padding: 0 20px;
+}
+.bannermain {
+	background-image: url("../img/banner1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 430px;
+}
+.about-us {
+	background-color: #066593;
+	padding: 20px 0;
+
+}
+.Career {
+	background-color: #066593;
+	padding: 20px 0;
+}
